@@ -5,7 +5,7 @@ Easy to use Unity package for debugging in game
 
 You can clone or download the project directly, or download the package from releases section and import it to your project.
 
-## How To Use
+# How To Use
 After importing the package into your Unity project, drag the UnityLog prefab into your scene.
 
 ![prefab](https://user-images.githubusercontent.com/32217921/83310837-0d0a9900-a216-11ea-9895-d8c24ac215b8.png)
@@ -28,7 +28,7 @@ Click on the UnityLog gameobject in the hierarchy and you will see some properti
 
 - You can also change the other self explanotary properties as you wish.
 
-### Sending Debug Messages
+## Sending Debug Messages
 
 Use UnityLog namespace on the scripts which you desire to send debug messages.
 ```csharp
@@ -49,7 +49,7 @@ void PrintPosition()
 }
 ```
 
-### Important Notes
+## Important Notes
 - UnityLog will automatically arrange it's layout based the screen. It will update itself when screen dimetions change, such as game window in the editor or screen orientation on handheld devices.
 
 - UnityLog requires EventSystem in order to operate. After a new scene is loaded if there is no EventSystem in the scene, UnityLog will automatically create one.
